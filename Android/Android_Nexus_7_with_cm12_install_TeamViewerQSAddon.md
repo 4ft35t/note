@@ -30,7 +30,7 @@ pm install /sdcard/Download/TeamViewerQSAddon.apk
 2. su
 3. mount -o rw,remount /system
 4. cp /sdcard/Donwload/TeamViewerQSAddon.apk /system/app/
-5. mount -o ro,remount /system
-6. chmod +r /system/app/TeamViewerQSAddon.apk
+5. chmod +r /system/app/TeamViewerQSAddon.apk
+6. mount -o ro,remount /system
 7. reboot to recovery and wipe cache and Dalvik cache and reboot
 
